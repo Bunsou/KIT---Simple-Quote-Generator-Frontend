@@ -16,7 +16,7 @@ export function QuoteGenerator() {
     setError("");
 
     try {
-      const response = await axios.get("http://localhost:3000/quotes/random");
+      const response = await axios.get("http://localhost:3001/quotes/random");
       const quoteData = response.data.data;
       setCurrentQuote({ quote: quoteData.quote, author: quoteData.author });
     } catch (err) {

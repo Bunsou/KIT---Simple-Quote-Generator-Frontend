@@ -43,7 +43,7 @@ export function QuoteCreator() {
     setError("");
 
     try {
-      const response = await axios.post("http://localhost:3000/quotes/", {
+      const response = await axios.post("http://localhost:3001/quotes/", {
         quote: quote.trim(),
         author: author.trim(),
       });
