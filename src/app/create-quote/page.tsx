@@ -1,15 +1,15 @@
 import Link from "next/link";
-import { QuoteGenerator } from "@/components/quote-generator";
+import { QuoteCreator } from "@/components/quote-creator";
 
-export default function Home() {
+export default function CreateQuote() {
   return (
     <main className="min-h-screen bg-slate-800 flex flex-col items-center justify-center p-4 gap-6">
-      <QuoteGenerator />
+      <QuoteCreator />
       <Link
-        href="/create-quote"
+        href="/"
         className="px-6 py-2 bg-white text-slate-800 rounded-md font-medium hover:bg-gray-100 transition-colors"
       >
-        Create Quote
+        Generate Quote
       </Link>
     </main>
   );
