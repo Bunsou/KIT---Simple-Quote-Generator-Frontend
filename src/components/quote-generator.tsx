@@ -36,7 +36,7 @@ export function QuoteGenerator() {
       >
         <div className="text-center mb-8">
           <h1 className="text-4xl font-bold mb-4 text-white">
-            Quote Generator
+            Simple Quote Generator
           </h1>
           <p className="text-blue-50 text-lg">
             We hope we generate a quote that would make your day better.
