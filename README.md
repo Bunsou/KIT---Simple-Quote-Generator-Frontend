@@ -8,6 +8,7 @@ This is just a simple quote generator that generates random quotes from a predef
 
 Tech Stack:
 
+- UX/UI: Figma
 - Frontend: NextJS, TailwindCSS, TypeScript, Shadcn UI
 - Backend: NestJS, TypeScript
 - Database: Neon (PostgreSQL), Drizzle ORM
